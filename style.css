@@ -134,6 +134,18 @@ main {
   -webkit-tap-highlight-color: transparent;
 }
 
+.link-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.link-card .link-btn {
+  border: none;
+  border-radius: 0;
+}
+
 .link-btn:active {
   background: #eef1f6;
 }
@@ -161,7 +173,10 @@ main {
 
 .lang-note {
   display: none;
-  margin: 6px 2px 0;
+  margin: 0;
+  padding: 8px 18px 10px;
+  border-top: 1px solid var(--border);
+  background: var(--placeholder-bg);
   font-size: 12px;
   color: var(--text-sub);
 }
