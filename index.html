@@ -3,51 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>공항철도 이용안내</title>
+<title data-i18n="pageTitle">공항철도 이용안내</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="page">
   <header>
+    <div class="lang-switch">
+      <button type="button" class="lang-pill" data-lang="ko">한국어</button>
+      <button type="button" class="lang-pill" data-lang="en">English</button>
+      <button type="button" class="lang-pill" data-lang="zh">中文</button>
+      <button type="button" class="lang-pill" data-lang="ja">日本語</button>
+    </div>
     <div class="brand-logo"><img src="images/arex-logo.jpg" alt="AREX 공항철도"></div>
-    <h1>공항철도 이용안내</h1>
-    <p>필요한 정보를 눌러 확인하세요</p>
+    <h1 data-i18n="pageTitle">공항철도 이용안내</h1>
+    <p data-i18n="pageSubtitle">필요한 정보를 눌러 확인하세요</p>
   </header>
   <main>
     <ul class="link-list">
       <li>
-        <a class="link-btn" href="http://www.seoulmetro.co.kr/kr/cyberStation.do" target="_blank" rel="noopener">
-          <span>노선도</span>
+        <a class="link-btn" data-link="routeMap" href="http://www.seoulmetro.co.kr/kr/cyberStation.do" target="_blank" rel="noopener">
+          <span data-i18n="linkRouteMap">노선도</span>
           <span class="icon">↗</span>
         </a>
       </li>
       <li>
-        <a class="link-btn" href="https://www.airportrailroad.com/train/express/introduce" target="_blank" rel="noopener">
-          <span>직통열차 운임표</span>
+        <a class="link-btn" data-link="expressFare" href="https://www.airportrailroad.com/train/express/introduce" target="_blank" rel="noopener">
+          <span data-i18n="linkExpressFare">직통열차 운임표</span>
           <span class="icon">↗</span>
         </a>
+        <p class="lang-note" data-i18n="arexLangNote" data-arex-note>AREX 사이트 우측 상단에서 언어를 변경할 수 있습니다.</p>
       </li>
       <li>
-        <a class="link-btn" href="https://www.airportrailroad.com/train/normal/fare" target="_blank" rel="noopener">
-          <span>일반열차 운임표</span>
+        <a class="link-btn" data-link="normalFare" href="https://www.airportrailroad.com/train/normal/fare" target="_blank" rel="noopener">
+          <span data-i18n="linkNormalFare">일반열차 운임표</span>
           <span class="icon">↗</span>
         </a>
+        <p class="lang-note" data-i18n="arexLangNote" data-arex-note>AREX 사이트 우측 상단에서 언어를 변경할 수 있습니다.</p>
       </li>
       <li>
-        <a class="link-btn" href="https://www.airportrailroad.com/train/normal/info/010/0" target="_blank" rel="noopener">
-          <span>역별 시간표</span>
+        <a class="link-btn" data-link="stationInfo" href="https://www.airportrailroad.com/train/normal/info/010/0" target="_blank" rel="noopener">
+          <span data-i18n="linkStationInfo">역별 시간표</span>
           <span class="icon">↗</span>
         </a>
+        <p class="lang-note" data-i18n="arexLangNote" data-arex-note>AREX 사이트 우측 상단에서 언어를 변경할 수 있습니다.</p>
       </li>
       <li>
-        <a class="link-btn primary" href="faq.html">
-          <span>자주 묻는 질문 (F&amp;Q)</span>
+        <a class="link-btn primary" href="faq.html" data-internal-link="faq.html">
+          <span data-i18n="linkFaq">자주 묻는 질문 (F&amp;Q)</span>
           <span class="icon">›</span>
         </a>
       </li>
     </ul>
   </main>
-  <footer>인천공항 ↔ 서울역 공항철도</footer>
+  <footer data-i18n="footer">인천공항 ↔ 서울역 공항철도</footer>
 </div>
+<script src="translations.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

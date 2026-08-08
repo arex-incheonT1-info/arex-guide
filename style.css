@@ -36,6 +36,36 @@ header {
   padding: 28px 20px 22px;
 }
 
+header .lang-switch {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+header .lang-pill {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 8px;
+  min-height: 44px;
+  border-radius: 999px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+header .lang-pill.active {
+  background: #fff;
+  color: var(--brand);
+  border-color: #fff;
+}
+
 header .brand-logo {
   display: inline-block;
   background: #fff;
@@ -127,6 +157,17 @@ main {
 
 .link-btn.primary:active {
   background: var(--brand-dark);
+}
+
+.lang-note {
+  display: none;
+  margin: 6px 2px 0;
+  font-size: 12px;
+  color: var(--text-sub);
+}
+
+.lang-note.show {
+  display: block;
 }
 
 /* FAQ accordion items */

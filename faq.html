@@ -3,47 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>자주 묻는 질문 - 공항철도 이용안내</title>
+<title data-i18n="faqDocTitle">자주 묻는 질문 - 공항철도 이용안내</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="page">
   <header>
-    <a class="back-link" href="index.html">← 이용안내</a>
+    <div class="lang-switch">
+      <button type="button" class="lang-pill" data-lang="ko">한국어</button>
+      <button type="button" class="lang-pill" data-lang="en">English</button>
+      <button type="button" class="lang-pill" data-lang="zh">中文</button>
+      <button type="button" class="lang-pill" data-lang="ja">日本語</button>
+    </div>
+    <a class="back-link" href="index.html" data-internal-link="index.html" data-i18n="backToMain">← 이용안내</a>
     <div class="brand-logo"><img src="images/arex-logo.jpg" alt="AREX 공항철도"></div>
-    <h1>자주 묻는 질문</h1>
-    <p>궁금한 항목을 눌러 확인하세요</p>
+    <h1 data-i18n="faqTitle">자주 묻는 질문</h1>
+    <p data-i18n="faqSubtitle">궁금한 항목을 눌러 확인하세요</p>
   </header>
   <main>
     <ul class="link-list">
       <li>
-        <a class="link-btn" href="https://www.airportrailroad.com/train/express/guide" target="_blank" rel="noopener">
-          <span>직통 이용 안내</span>
+        <a class="link-btn" data-link="faqExpressGuide" href="https://www.airportrailroad.com/train/express/guide" target="_blank" rel="noopener">
+          <span data-i18n="faqExpressGuide">직통 이용 안내</span>
           <span class="icon">↗</span>
         </a>
+        <p class="lang-note" data-i18n="arexLangNote" data-arex-note>AREX 사이트 우측 상단에서 언어를 변경할 수 있습니다.</p>
       </li>
       <li>
-        <a class="link-btn" href="https://www.airportrailroad.com/train/normal/ticket" target="_blank" rel="noopener">
-          <span>일반 이용 안내</span>
+        <a class="link-btn" data-link="faqNormalGuide" href="https://www.airportrailroad.com/train/normal/ticket" target="_blank" rel="noopener">
+          <span data-i18n="faqNormalGuide">일반 이용 안내</span>
           <span class="icon">↗</span>
         </a>
+        <p class="lang-note" data-i18n="arexLangNote" data-arex-note>AREX 사이트 우측 상단에서 언어를 변경할 수 있습니다.</p>
       </li>
       <li>
-        <a class="link-btn" href="https://www.airportrailroad.com/train/express/city/info" target="_blank" rel="noopener">
-          <span>도심공항 이용 안내</span>
+        <a class="link-btn" data-link="faqCityAirport" href="https://www.airportrailroad.com/train/express/city/info" target="_blank" rel="noopener">
+          <span data-i18n="faqCityAirport">도심공항 이용 안내</span>
           <span class="icon">↗</span>
         </a>
+        <p class="lang-note" data-i18n="arexLangNote" data-arex-note>AREX 사이트 우측 상단에서 언어를 변경할 수 있습니다.</p>
       </li>
       <li>
-        <a class="link-btn" href="https://www.airport.kr/geomap/ap_ko/view.do?type=2&alertType=0&tmnlId=P01#/search" target="_blank" rel="noopener">
-          <span>1터미널 시설 안내</span>
+        <a class="link-btn" data-link="terminal1" href="https://www.airport.kr/geomap/ap_ko/view.do?type=2&alertType=0&tmnlId=P01#/search" target="_blank" rel="noopener">
+          <span data-i18n="faqTerminal1">1터미널 시설 안내</span>
           <span class="icon">↗</span>
         </a>
       </li>
       <li>
         <details class="faq-item">
           <summary>
-            <span>티머니 환불 안내</span>
+            <span data-i18n="faqTmoney">티머니 환불 안내</span>
             <span class="icon">›</span>
           </summary>
           <div class="faq-body">
@@ -54,7 +63,7 @@
       <li>
         <details class="faq-item">
           <summary>
-            <span>WOW PASS 안내</span>
+            <span data-i18n="faqWowpass">WOW PASS 안내</span>
             <span class="icon">›</span>
           </summary>
           <div class="faq-body">
@@ -65,7 +74,7 @@
       <li>
         <details class="faq-item">
           <summary>
-            <span>직통 하차 후 서울역 환승방법</span>
+            <span data-i18n="faqTransfer">직통 하차 후 서울역 환승방법</span>
             <span class="icon">›</span>
           </summary>
           <div class="faq-body">
@@ -75,7 +84,9 @@
       </li>
     </ul>
   </main>
-  <footer>인천공항 ↔ 서울역 공항철도</footer>
+  <footer data-i18n="footer">인천공항 ↔ 서울역 공항철도</footer>
 </div>
+<script src="translations.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
