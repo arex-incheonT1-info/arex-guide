@@ -238,6 +238,10 @@ main {
   border: 1px solid var(--border);
 }
 
+.faq-item .faq-body img + img {
+  margin-top: 10px;
+}
+
 .faq-item .faq-body iframe {
   display: block;
   width: 100%;

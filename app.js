@@ -34,6 +34,11 @@
       if (href) el.setAttribute("href", href);
     });
 
+    document.querySelectorAll("[data-image]").forEach(function (el) {
+      var src = dict.images && dict.images[el.getAttribute("data-image")];
+      if (src) el.setAttribute("src", src);
+    });
+
     document.querySelectorAll("[data-arex-note]").forEach(function (el) {
       el.classList.toggle("show", lang !== "ko");
     });

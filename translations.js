@@ -35,6 +35,9 @@ var TRANSLATIONS = {
       faqExpressGuide: "https://www.airportrailroad.com/train/express/guide",
       faqNormalGuide: "https://www.airportrailroad.com/train/normal/ticket",
       faqCityAirport: "https://www.airportrailroad.com/train/express/city/info"
+    },
+    images: {
+      tmoney: "images/tmoney-refund-ko.jpg"
     }
   },
 
@@ -70,6 +73,9 @@ var TRANSLATIONS = {
       faqExpressGuide: "https://www.airportrailroad.com/train/express/guide",
       faqNormalGuide: "https://www.airportrailroad.com/train/normal/ticket",
       faqCityAirport: "https://www.airportrailroad.com/train/express/city/info"
+    },
+    images: {
+      tmoney: "images/tmoney-refund-en.jpg"
     }
   },
 
@@ -105,6 +111,9 @@ var TRANSLATIONS = {
       faqExpressGuide: "https://www.airportrailroad.com/train/express/guide",
       faqNormalGuide: "https://www.airportrailroad.com/train/normal/ticket",
       faqCityAirport: "https://www.airportrailroad.com/train/express/city/info"
+    },
+    images: {
+      tmoney: "images/tmoney-refund-zh.jpg"
     }
   },
 
@@ -140,6 +149,9 @@ var TRANSLATIONS = {
       faqExpressGuide: "https://www.airportrailroad.com/train/express/guide",
       faqNormalGuide: "https://www.airportrailroad.com/train/normal/ticket",
       faqCityAirport: "https://www.airportrailroad.com/train/express/city/info"
+    },
+    images: {
+      tmoney: "images/tmoney-refund-ja.jpg"
     }
   }
 };
