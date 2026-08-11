@@ -38,6 +38,9 @@ var TRANSLATIONS = {
     },
     images: {
       tmoney: "images/tmoney-refund-ko.jpg"
+    },
+    videos: {
+      transfer: "https://www.youtube.com/embed/6LaMrRYxmfA"
     }
   },
 
@@ -76,6 +79,9 @@ var TRANSLATIONS = {
     },
     images: {
       tmoney: "images/tmoney-refund-en.jpg"
+    },
+    videos: {
+      transfer: "https://www.youtube.com/embed/6LaMrRYxmfA"
     }
   },
 
@@ -114,6 +120,9 @@ var TRANSLATIONS = {
     },
     images: {
       tmoney: "images/tmoney-refund-zh.jpg"
+    },
+    videos: {
+      transfer: "https://www.youtube.com/embed/wBh3-8_SMxY"
     }
   },
 
@@ -152,6 +161,9 @@ var TRANSLATIONS = {
     },
     images: {
       tmoney: "images/tmoney-refund-ja.jpg"
+    },
+    videos: {
+      transfer: "https://www.youtube.com/embed/UX9bpU0m2cU"
     }
   }
 };
